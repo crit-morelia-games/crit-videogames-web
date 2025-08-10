@@ -7,7 +7,7 @@ import { Typography, Button } from "@mui/material";
 import { TherapistsTable } from "../../../utils/filterRows";
 import Spanish from "../../../utils/locale";
 import CustomGrid from "../../../components/Custom/CustomGrid";
-import ModalTherapist from "../../../components/Modal/modalTherapist";
+import ModalTherapist from "../../../components/Modal/ModalTherapist.jsx";
 
 const Therapists = () => {
   const authHeader = useAuthHeader();
